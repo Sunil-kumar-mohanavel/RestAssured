@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HTTPRequest.HTTReq">
+      <class name="ParsingResponseData.ResponseDataValidate">
         <methods>
-          <include name="updateuser"/>
-          <include name="createUser"/>
-          <include name="deleteuser"/>
+          <include name="testJsonObject"/>
         </methods>
-      </class> <!-- HTTPRequest.HTTReq -->
+      </class> <!-- ParsingResponseData.ResponseDataValidate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
