@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ParsingResponseData.ResponseDataValidate">
+      <class name="Authentication.Basic">
         <methods>
-          <include name="testJsonObject"/>
+          <include name="bearerauth"/>
         </methods>
-      </class> <!-- ParsingResponseData.ResponseDataValidate -->
+      </class> <!-- Authentication.Basic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

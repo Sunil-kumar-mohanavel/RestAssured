@@ -1,4 +1,4 @@
-package ParsingResponseData;
+package ParsingJSONResponseData;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import io.restassured.response.Response;
 
 import static io.restassured.matcher.RestAssuredMatchers.*;
-public class ResponseDataValidate {
+public class ResponseDataValidateJSON {
 	
 	
 	//@Test(priority=1)
@@ -79,7 +79,7 @@ public class ResponseDataValidate {
 				 
 			// convert response to JSON object type
 		 
-		 JSONObject jo = new JSONObject(res.toString());
+		 JSONObject jo = new JSONObject(res.asString());
 		 
 		 // print all the books title
 		 
